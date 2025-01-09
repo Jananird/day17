@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    margin: 0px;
+
+}
+
+
+
+@media only screen and (min-width: 769px) {
+    .container{
+        
+    /* display: grid; */
+    grid-template-columns: 1fr ;}}
+header{
+    margin: 0px;
+    background-color: white;
+    height: 8vh;
+    
+}
+.sec1{
+    background-color: rgba(229, 175, 26, 0.89);
+    height: 30vh;
+    
+    
+}
+.flex-container{
+    display: flex;
+    /* margin-top: 5px; */
+}
+
+.sec2{
+    background-color: rgb(62, 60, 60);
+margin-left: 15px;
+margin-top: 10px;
+height: 300px;
+width: 160px;
+
+}
+
+.sec3{
+    background-color: rgb(62, 60, 60);
+margin-left: 15px;
+margin-top: 10px;
+height: 300px;
+width: 160px;
+
+}
+.sec4{
+    background-color: rgb(197, 112, 27);
+margin-left: 25px;
+margin-top: 20px;
+height: 120px;
+width: 260px;
+position: relative;
+
+}
+
+.sec4 p{
+    position: absolute;
+    top: 90%;
+    left: 1%;
+    transform: translate(-50% - 50%);
+}
+.sec5{
+    background-color: rgb(199, 135, 71);
+margin-left: 25px;
+margin-top: 20px;
+height: 120px;
+width: 260px;
+position: relative;
+
+
+}
+.sec5 p{
+    position: absolute;
+    top: 90%;
+    left: 1%;
+    transform: translate(-50% - 50%);
+}
+.sec6{
+    background-color: rgb(174, 92, 10);
+margin-left: 25px;
+margin-top: 20px;
+height: 120px;
+width: 260px;
+position: relative;
+
+
+}
+.sec6 p{
+    position: absolute;
+    top: 90%;
+    left: 1%;
+    transform: translate(-50% - 50%);   
+    
+}
+
